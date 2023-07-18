@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(243, 157, 65);
+}
+
+h1 {
+    color: #333;
+}
+
+#pergunta{
+    font-size: 26px;
+}
+#guess-container {
+    display: inline-block;
+    padding: 20px;
+    border: 6px solid #110e0e;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#guess-input {
+    padding: 8px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+#result {
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
